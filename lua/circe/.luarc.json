@@ -1,0 +1,7 @@
+{
+    "diagnostics.globals": [
+        "base",
+        "colors",
+        "basecolors"
+    ]
+}
