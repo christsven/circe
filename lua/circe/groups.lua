@@ -5,7 +5,7 @@ local colors = require("circe.palette")
 M.setup = function()
   return {
     Normal = { fg = colors.fg, bg = NONE },
-    NormalFloat = { fg = colors.fg, bg = color.bg },
+    NormalFloat = { fg = colors.fg, bg = colors.bg },
     Comment = { fg = colors.comment, italic = true },
     Constant = { fg = colors.pink },
     String = { fg = colors.number },
