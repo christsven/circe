@@ -9,4 +9,4 @@ $$ |  $$\   $$ |  $$ |  $$ |$$ |  $$\ $$ |
  \______/ \______|\__|  \__| \______/ \________|
 ```                                                
                                                 
---- Based on ronxvier/ymir.nvim and fenetikm/falcon.nvim                                               
+Based on ronxvier/ymir.nvim and fenetikm/falcon.nvim                                               
