@@ -2,6 +2,7 @@
     "diagnostics.globals": [
         "base",
         "colors",
-        "basecolors"
+        "basecolors",
+        "NONE"
     ]
 }
