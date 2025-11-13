@@ -15,10 +15,13 @@ base = {
 }
 
 return {
+
+--- direct base colors
+
   red = base.red,
   orange = base.orange,
-  yellow = base.yellow,
   green = base.green,
+  yellow = base.yellow,
   blue = base.blue,
   pink = base.pink,
   cyan = base.cyan,
@@ -28,18 +31,34 @@ return {
   bg = base.bg,
   secondary = base.secondary,
 
-  error = base.red,
-  success = base.green,
+--- functionally bound colours for easier usage 
 
-  constant = base.pink,
-  keyword = base.orange,
+  modified  = base.yellow,
+  branch    = base.yellow,
 
-  type = base.yellow,
-  variable = base.fb,
-  value = base.white,
+  method    = base.yellow,
+  funct     = base.orange,
 
-  comment = base.gray,
+  constant  = base.pink,
+  keyword   = base.orange,
+  operator  = base.yellow,
+  path      = base.secondary,
+
+  variable  = base.secondary,
+  number    = base.secondary,
+  boolean   = base.secondary,
+
+  info      = base.white,
+  hint      = base.green,
+  warning   = base.orange,
+  error     = base.red,
+  status    = base.secondary,
+
+  comment   = base.gray,
+  inactive  = base.gray,
+  selection = base.blue,
+
+--- functional and UI 
 
   cursor = base.fg,
-  selection = base.blue,
 }
