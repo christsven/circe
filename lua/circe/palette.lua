@@ -29,17 +29,30 @@ return {
   secondary = base.secondary,
 
   error = base.red,
+  warn = base.yellow,
   success = base.green,
+  info = base.white,
 
+  -- names of constants
   constant = base.pink,
+  -- operational keword, for, 
   keyword = base.orange,
-
+  -- access modifier, static, etc
+  modifier = base.red,
+  -- classes
   type = base.yellow,
-  variable = base.fb,
+  -- instances and objects
+  variable = base.fg,
+  -- strings, numbers, texts, chars
   value = base.white,
 
-  comment = base.gray,
+  -- for testing purposes
+  test = '#ff77ff';
 
+  -- utility stuff that i dont actually know what is
+  utility = base.secondary,
+
+  comment = base.gray,
   cursor = base.fg,
   selection = base.blue,
 }
