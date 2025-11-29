@@ -14,7 +14,7 @@ M.setup = function()
     Boolean = { fg = colors.value },
     Float = { fg = colors.value },
     FloatBorder = { fg = colors.value },
-    Operator = { fg = colors.test },  --what is this
+    Operator = { fg = colors.keyword },  -- this is stuff like dots, ampersands, plusses...
     Keyword = { fg = colors.keyword },
     Keywords = { fg = colors.keyword },
     Identifier = { fg = colors.modifier },
