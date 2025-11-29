@@ -52,6 +52,9 @@ return {
   -- utility stuff that i dont actually know what is
   utility = base.secondary,
 
+  -- anything like brackets, dots and shit
+  delimiter = base.white,
+
   comment = base.gray,
   cursor = base.fg,
   selection = base.blue,
