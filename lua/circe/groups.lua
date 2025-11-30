@@ -7,7 +7,7 @@ M.setup = function()
     Normal = { fg = colors.fg, bg = NONE },
     NormalFloat = { fg = colors.fg, bg = colors.bg },
     Comment = { fg = colors.comment, italic = true },
-    Constant = { fg = colors.constant },
+    Constant = { fg = colors.constant, italic = true },
     String = { fg = colors.value },
     Character = { fg = colors.value },
     Number = { fg = colors.value },
@@ -100,8 +100,8 @@ M.setup = function()
     ["@punctuation.bracket"] = { fg = colors.delimiter },
     ["@punctuation.special"] = { fg = colors.test },
 
-    ["@constant"] = { fg = colors.constant },
-    ["@constant.builtin"] = { fg = colors.constant },
+    ["@constant"] = { fg = colors.constant, italic = true },
+    ["@constant.builtin"] = { fg = colors.constant, italic = true},
     ["@symbol"] = { fg = colors.test },
 
     ["@constant.macro"] = { fg = colors.constant },
