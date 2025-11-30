@@ -159,15 +159,15 @@ M.setup = function()
     ["@tag.delimiter"] = { fg = colors.test },
 
     -- Semantic
-    ["@class"] = { fg = colors.blue },
-    ["@struct"] = { fg = colors.blue },
-    ["@enum"] = { fg = colors.blue },
-    ["@enumMember"] = { fg = colors.magenta },
-    ["@event"] = { fg = colors.blue },
-    ["@interface"] = { fg = colors.blue },
-    ["@modifier"] = { fg = colors.blue },
-    ["@regexp"] = { fg = colors.yellow },
-    ["@typeParameter"] = { fg = colors.blue },
+    ["@class"] = { fg = colors.type },
+    ["@struct"] = { fg = colors.type },
+    ["@enum"] = { fg = colors.constant }, --maybe this looks good?
+    ["@enumMember"] = { fg = colors.constant },
+    ["@event"] = { fg = colors.info },
+    ["@interface"] = { fg = colors.type },
+    ["@modifier"] = { fg = colors.modifier },
+    ["@regexp"] = { fg = colors.value },
+    ["@typeParameter"] = { fg = colors.test },
     ["@decorator"] = { fg = colors.blue },
 
     -- LSP Semantic (0.9+)
