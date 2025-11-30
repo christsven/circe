@@ -131,32 +131,32 @@ M.setup = function()
     ["@label"] = { fg = colors.test },
 
     ["@keyword"] = { fg = colors.keyword, bold = true },
-    ["@keyword.function"] = { fg = colors.funct }, --'###############################
-    ["@keyword.function.ruby"] = { fg = colors.funct },
-    ["@keyword.operator"] = { fg = colors.white },
-    ["@operator"] = { fg = colors.white },
-    ["@exception"] = { fg = colors.magenta },
-    ["@type"] = { fg = colors.blue },
-    ["@type.builtin"] = { fg = colors.blue, italic = true },
-    ["@type.qualifier"] = { fg = colors.white },
-    ["@structure"] = { fg = colors.magenta },
-    ["@include"] = { fg = colors.blue },
+    ["@keyword.function"] = { fg = colors.keyword }, --'###############################
+    ["@keyword.function.ruby"] = { fg = colors.keyword },
+    ["@keyword.operator"] = { fg = colors.delimiter }, --is this correct
+    ["@operator"] = { fg = colors.delimiter }, -- this should be described somewhere
+    ["@exception"] = { fg = colors.error },
+    ["@type"] = { fg = colors.type },
+    ["@type.builtin"] = { fg = colors.type, italic = true }, -- this is stuff like void
+    ["@type.qualifier"] = { fg = colors.modifier },
+    ["@structure"] = { fg = colors.type },
+    ["@include"] = { fg = colors.type },
 
-    ["@variable"] = { fg = colors.variable  },
+    ["@variable"] = { fg = colors.variable },
     ["@variable.builtin"] = { fg = colors.variable },
 
-    ["@text"] = { fg = colors.number },
-    ["@text.strong"] = { fg = colors.number, bold = true }, -- bold
-    ["@text.emphasis"] = { fg = colors.yellow, italic = true }, -- italic
-    ["@text.underline"] = { fg = colors.number },
-    ["@text.title"] = { fg = colors.blue, bold = true }, -- title
-    ["@text.literal"] = { fg = colors.number }, -- inline code
-    ["@text.uri"] = { fg = colors.yellow, italic = true }, -- urls
-    ["@text.reference"] = { fg = colors.number , bold = true },
+    ["@text"] = { fg = colors.value },
+    ["@text.strong"] = { fg = colors.value, bold = true },
+    ["@text.emphasis"] = { fg = colors.value, italic = true },
+    ["@text.underline"] = { fg = colors.value }, -- shouldnt this be underlined?
+    ["@text.title"] = { fg = colors.value, bold = true }, -- title
+    ["@text.literal"] = { fg = colors.value }, -- inline code
+    ["@text.uri"] = { fg = colors.blue , italic = true }, -- an exception to the rule
+    ["@text.reference"] = { fg = colors.value, bold = true },
 
-    ["@tag"] = { fg = colors.blue },
-    ["@tag.attribute"] = { fg = colors.number },
-    ["@tag.delimiter"] = { fg = colors.blue },
+    ["@tag"] = { fg = colors.test }, --this should probably be something unique?
+    ["@tag.attribute"] = { fg = colors.test },
+    ["@tag.delimiter"] = { fg = colors.test },
 
     -- Semantic
     ["@class"] = { fg = colors.blue },

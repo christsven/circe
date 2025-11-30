@@ -40,7 +40,7 @@ return {
   keyword = base.orange,
   -- access modifier, static, etc
   modifier = base.red,
-  -- classes
+  -- classes, methods
   type = base.yellow,
   -- instances and objects
   variable = base.fg,
