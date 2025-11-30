@@ -1,6 +1,7 @@
 base = {
   red       = '#a64242',
-  orange    = '#e26453',
+  morange   = '#e26453', --these are quite close
+  orange    = '#e28453',
   yellow    = '#f0c674',
   green     = '#9aa212',
   blue      = '#0074b3',
@@ -53,7 +54,7 @@ return {
   utility = base.secondary,
 
   -- anything like brackets, dots and shit
-  delimiter = base.white,
+  delimiter = base.gray,
 
   comment = base.gray,
   cursor = base.fg,
