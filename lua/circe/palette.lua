@@ -35,9 +35,9 @@ return {
   info = base.white,
 
   -- names of constants
-  constant = base.pink,
+  constant = base.red,
   -- operational keword, for, 
-  keyword = base.red,
+  keyword = base.pink,
   -- access modifier, static, etc
   modifier = base.orange,
   -- classes, methods
