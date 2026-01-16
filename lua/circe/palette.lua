@@ -37,21 +37,21 @@ return {
   -- names of constants
   constant = base.pink,
   -- operational keword, for, 
-  keyword = base.orange,
+  keyword = base.red,
   -- access modifier, static, etc
-  modifier = base.red,
+  modifier = base.orange,
   -- classes, methods
   type = base.yellow,
   -- instances and objects
   variable = base.fg,
   -- strings, numbers, texts, chars
-  value = base.white,
+  value = base.secondary,
 
   -- for testing purposes
   test = '#ff77ff';
 
   -- utility stuff that i dont actually know what is
-  utility = base.secondary,
+  utility = base.white,
 
   -- anything like brackets, dots and shit
   delimiter = base.gray,
